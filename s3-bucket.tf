@@ -7,6 +7,6 @@ module "s3_bucket" {
   versioning = {
     enabled = true
   }
-  prefix = var.prefix
+  bucket_prefix = var.prefix
 
 }
